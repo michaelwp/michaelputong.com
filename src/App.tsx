@@ -15,7 +15,7 @@ function App() {
                 </div>
                 <div className={"flex flex-col m-2 justify-end"}>
                     <Body/>
-                </div>npm
+                </div>
             </div>
         </div>
     )
