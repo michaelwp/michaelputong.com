@@ -43,7 +43,7 @@ const Body = () => {
                 </div>
             </div>
             <div className={"flex flex-row space-x-1 items-center m-2"}>
-                <span className={"text-sm text-gray-400"}>Contact Me via email :</span> <Contact/>
+                <span className={"text-sm text-gray-400"}>Contact :</span> <Contact/>
             </div>
             <hr className={"mt-5"}/>
             <div>
