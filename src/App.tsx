@@ -4,7 +4,7 @@ import Avatar from "./components/avatar.tsx";
 
 function App() {
     return (
-        <div className={"flex xl:flex-row l:flex-row flex-col items-center p-10 w-full justify-center"}>
+        <div className={"flex xl:flex-row lg:flex-row flex-col items-center p-10 w-full justify-center"}>
             <div className={"p-2"}>
                 <Avatar/>
             </div>
