@@ -3,7 +3,8 @@ import avatar from "../assets/avatar.png";
 const Avatar = () => {
     return (
         <>
-            <img src={avatar} alt={"michael putong"} className={"w-96 rounded-2xl border border-gray-500"}/>
+            <img src={avatar} alt={"michael putong"}
+                 className={"xl:w-96 w-full rounded-2xl xl:border border-gray-500"}/>
         </>
     )
 }
