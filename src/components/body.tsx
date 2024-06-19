@@ -1,5 +1,4 @@
 import Contact from "./contact.tsx";
-import Social from "./social.tsx";
 
 const Body = () => {
     return (
@@ -10,8 +9,7 @@ const Body = () => {
                     <span className={"text-2xl font-normal text-blue-500 p-2"}>
                             Software Engineer
                         </span>
-                    with over 10 years of experience, specializing in full-stack
-                    development using
+                    , specializing in full-stack development using
                     <span className={"text-2xl font-normal text-red-500 p-2"}>
                             React.Js
                         </span>,
@@ -44,10 +42,6 @@ const Body = () => {
             </div>
             <div className={"flex flex-row space-x-1 items-center m-2"}>
                 <span className={"text-sm text-gray-400"}>Contact :</span> <Contact/>
-            </div>
-            <hr className={"mt-5"}/>
-            <div>
-                <Social/>
             </div>
         </>
     )
